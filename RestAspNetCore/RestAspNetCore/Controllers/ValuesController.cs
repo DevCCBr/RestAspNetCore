@@ -11,35 +11,40 @@ namespace RestAspNetCore.Controllers
     public class ValuesController : ControllerBase
     {
         // GET api/values
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        [HttpGet("{primeiroNumero}/{segundoNumero}")]
+        public IActionResult Sum(string primeiroNumero, string segundoNumero)
         {
-            return new string[] { "value1", "value2" };
+            if(IsNumeric(primeiroNumero) && IsNumeric(segundoNumero))
+            {
+
+                var sum = ConvertToNumber(primeiroNumero) + ConvertToNumber(segundoNumero);
+                return Ok(sum.ToString());
+            }
+
+
+            return BadRequest("deu merda na soma");
+           
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        private decimal ConvertToNumber(string Numero)
         {
-            return "value";
+
+            decimal decimalValue;
+            if(decimal.TryParse(Numero, out decimalValue))
+            {
+                return decimalValue;
+            }
+
+            return 0;
         }
 
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody] string value)
+        private bool IsNumeric(string numero)
         {
+            double number;
+            bool isNamber = double.TryParse(numero, System.Globalization.NumberStyles.Any,
+                System.Globalization.NumberFormatInfo.InvariantInfo, out number);
+            return isNamber;
         }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+      
     }
 }
