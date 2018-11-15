@@ -1,0 +1,14 @@
+C:\Users\Pichau\Documents\REST_UDEMY\RestAspNetCore\RestAspNetCore\RestAspNetCore\bin\Debug\netcoreapp2.1\RestAspNetCore.deps.json
+C:\Users\Pichau\Documents\REST_UDEMY\RestAspNetCore\RestAspNetCore\RestAspNetCore\bin\Debug\netcoreapp2.1\RestAspNetCore.runtimeconfig.json
+C:\Users\Pichau\Documents\REST_UDEMY\RestAspNetCore\RestAspNetCore\RestAspNetCore\bin\Debug\netcoreapp2.1\RestAspNetCore.runtimeconfig.dev.json
+C:\Users\Pichau\Documents\REST_UDEMY\RestAspNetCore\RestAspNetCore\RestAspNetCore\bin\Debug\netcoreapp2.1\RestAspNetCore.dll
+C:\Users\Pichau\Documents\REST_UDEMY\RestAspNetCore\RestAspNetCore\RestAspNetCore\bin\Debug\netcoreapp2.1\RestAspNetCore.pdb
+C:\Users\Pichau\Documents\REST_UDEMY\RestAspNetCore\RestAspNetCore\RestAspNetCore\obj\Debug\netcoreapp2.1\RestAspNetCore.csprojAssemblyReference.cache
+C:\Users\Pichau\Documents\REST_UDEMY\RestAspNetCore\RestAspNetCore\RestAspNetCore\obj\Debug\netcoreapp2.1\RestAspNetCore.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Documents\REST_UDEMY\RestAspNetCore\RestAspNetCore\RestAspNetCore\obj\Debug\netcoreapp2.1\RestAspNetCore.RazorAssemblyInfo.cache
+C:\Users\Pichau\Documents\REST_UDEMY\RestAspNetCore\RestAspNetCore\RestAspNetCore\obj\Debug\netcoreapp2.1\RestAspNetCore.RazorAssemblyInfo.cs
+C:\Users\Pichau\Documents\REST_UDEMY\RestAspNetCore\RestAspNetCore\RestAspNetCore\obj\Debug\netcoreapp2.1\RestAspNetCore.AssemblyInfoInputs.cache
+C:\Users\Pichau\Documents\REST_UDEMY\RestAspNetCore\RestAspNetCore\RestAspNetCore\obj\Debug\netcoreapp2.1\RestAspNetCore.AssemblyInfo.cs
+C:\Users\Pichau\Documents\REST_UDEMY\RestAspNetCore\RestAspNetCore\RestAspNetCore\obj\Debug\netcoreapp2.1\RestAspNetCore.RazorTargetAssemblyInfo.cache
+C:\Users\Pichau\Documents\REST_UDEMY\RestAspNetCore\RestAspNetCore\RestAspNetCore\obj\Debug\netcoreapp2.1\RestAspNetCore.dll
+C:\Users\Pichau\Documents\REST_UDEMY\RestAspNetCore\RestAspNetCore\RestAspNetCore\obj\Debug\netcoreapp2.1\RestAspNetCore.pdb
