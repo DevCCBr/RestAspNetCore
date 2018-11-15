@@ -10,8 +10,8 @@ namespace RestAspNetCore.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        // GET api/values
-        [HttpGet("{primeiroNumero}/{segundoNumero}")]
+        // GET api/sum/values
+        [HttpGet("sum/{primeiroNumero}/{segundoNumero}")]
         public IActionResult Sum(string primeiroNumero, string segundoNumero)
         {
             if(IsNumeric(primeiroNumero) && IsNumeric(segundoNumero))
@@ -22,8 +22,57 @@ namespace RestAspNetCore.Controllers
             }
 
 
+
             return BadRequest("deu merda na soma");
            
+        }
+
+        // GET api/sub/values/5/8
+        [HttpGet("sub/{primeiroNumero}/{segundoNumero}")]
+        public IActionResult Sub(string primeiroNumero, string segundoNumero)
+        {
+            if (IsNumeric(primeiroNumero) && IsNumeric(segundoNumero))
+            {
+
+                var sum = ConvertToNumber(primeiroNumero) - ConvertToNumber(segundoNumero);
+                return Ok(sum.ToString());
+            }
+
+
+            return BadRequest("deu merda na soma");
+
+        }
+
+        // GET api/sub/values/5/8
+        [HttpGet("mult/{primeiroNumero}/{segundoNumero}")]
+        public IActionResult mult(string primeiroNumero, string segundoNumero)
+        {
+            if (IsNumeric(primeiroNumero) && IsNumeric(segundoNumero))
+            {
+
+                var sum = ConvertToNumber(primeiroNumero) * ConvertToNumber(segundoNumero);
+                return Ok(sum.ToString());
+            }
+
+
+            return BadRequest("deu merda na soma");
+
+        }
+
+        // GET api/sub/values/5/8
+        [HttpGet("div/{primeiroNumero}/{segundoNumero}")]
+        public IActionResult div(string primeiroNumero, string segundoNumero)
+        {
+            if (IsNumeric(primeiroNumero) && IsNumeric(segundoNumero))
+            {
+
+                var sum = ConvertToNumber(primeiroNumero) / ConvertToNumber(segundoNumero);
+                return Ok(sum.ToString());
+            }
+
+
+            return BadRequest("deu merda na soma");
+
         }
 
         private decimal ConvertToNumber(string Numero)
