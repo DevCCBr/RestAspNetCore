@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestAspNetCore", "RestAspNetCore\RestAspNetCore.csproj", "{62A665F6-EC7E-4F29-A852-335AE4837BA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestAspNetCore", "RestAspNetCore\RestAspNetCore.csproj", "{62A665F6-EC7E-4F29-A852-335AE4837BA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiRestPersons", "apiRestPersons\apiRestPersons.csproj", "{051DC66F-179D-49F6-9371-9EF7A52A848C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{62A665F6-EC7E-4F29-A852-335AE4837BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62A665F6-EC7E-4F29-A852-335AE4837BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62A665F6-EC7E-4F29-A852-335AE4837BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{051DC66F-179D-49F6-9371-9EF7A52A848C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{051DC66F-179D-49F6-9371-9EF7A52A848C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{051DC66F-179D-49F6-9371-9EF7A52A848C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{051DC66F-179D-49F6-9371-9EF7A52A848C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
